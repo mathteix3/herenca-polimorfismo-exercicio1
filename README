@@ -1,0 +1,43 @@
+A company has its own and outsourced employees.
+For each employee, you want to record name, hours
+worked and hourly rate. Outsourced employees
+They also have an additional expense.
+
+Employee pay corresponds to the hourly rate
+multiplied by the hours worked, with the
+outsourced employees still receive a bonus
+corresponding to 110% of your additional expense.
+
+Make a program to read data from N employees (N
+provided by the user) and store them in a list. After
+to read all data, show name and payment of each
+employee in the same order in which they were entered.
+
+
+//Output terminal:
+
+Enter the number of employees: 3
+
+Employee #1 data:
+Outsourced (y/n)? n
+Name: Alex
+Hours: 50
+Value per hour: 20
+
+Employee #2 data:
+Outsourced (y/n)? y
+Name: Bob
+Hours: 100
+Value per hour: 15
+Additional charge: 200
+
+Employee #3 data:
+Outsourced (y/n)? n
+Name: Maria
+Hours: 60
+Value per hour: 20
+
+PAYMENTS:
+Alex - $ 1000.0
+Bob - $ 1720.0
+Maria - $ 1200.0
